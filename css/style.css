@@ -225,6 +225,8 @@ Custom
 			margin: -1em 0 3.5em 0;
 		}
 
+/* Row */
+
 /* Form */
 
 	form {
@@ -449,7 +451,7 @@ Custom
 		#people .box.post{
 			padding-top:50px;
 			background-color:#f2f2f2;
-			min-height:360px;
+			max-height:385px;
 		}
 		.box.post {
 			margin-left: auto;
@@ -491,6 +493,8 @@ Custom
 		}
 
 /* Image */
+
+	.box.post.project .image.fit img {width:70%; margin:0 auto;}
 
 	.image {
 		border-radius: 0.5em;
