@@ -1,0 +1,7 @@
+---
+layout: default
+
+img: chicago.png
+link: http://uchicago.edu
+
+---

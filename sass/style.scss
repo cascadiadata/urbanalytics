@@ -433,6 +433,8 @@
 
 /* Image */
 
+	.box.post.project .image.fit img {width:70%}
+
 	.image {
 		border-radius: $size-border-radius;
 		border: 0;

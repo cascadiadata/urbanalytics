@@ -1,0 +1,7 @@
+---
+layout: default
+
+img: opensidewalks.png
+link: https://opensidewalks.com/
+
+---
