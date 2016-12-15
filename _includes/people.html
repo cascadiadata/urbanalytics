@@ -1,0 +1,17 @@
+<!-- People -->
+			<section id="people" class="wrapper style2">
+				<div class="container">
+					<h2>People</h2>
+					<div class="row uniform">
+					{% for post in site.categories.people %}
+						<div class="3u 6u(2) 12u$(3)">
+							<article class="box post">
+								<a href="{{ post.link }}" class="image fit"><img src="images/people/{{ post.img }}" alt="{{ post.alt }}" /></a>
+								<p><a href="{{ post.link }}">{{ post.name }}</a>, {{ post.aff }}</p>
+								<i>{{ post.project }}</i>
+							</article>
+						</div>
+					{% endfor %}
+					</div>
+				</div>
+			</section>

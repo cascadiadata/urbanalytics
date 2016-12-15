@@ -1,0 +1,8 @@
+<!-- Partners -->
+		
+		<section id="partners" class="wrapper style1 align-center">
+			<h2>Partners / Sponsors</h2>
+			{% for post in site.categories.partners %}
+			<a href="{{ post.link }}"><img src="images/partners/{{ post.img }}"></a>
+			{% endfor %}
+		</section>

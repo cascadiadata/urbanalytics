@@ -1,0 +1,27 @@
+<!-- Affiliated Projects e -->
+		<section id="projects" class="wrapper style1">
+			<div class="container">
+					<h2>Affiliated Projects</h2>
+				<div class="row">
+					{% for post in site.categories.projects %}
+					<div class="{{ post.layout }}">
+						<article class="box post project">
+							<a href="{{ post.link }}" class="image fit"><img src="images/{{ post.img }}" alt="{{ post.alt }}" /></a>
+							<h3>{{ post.name }}</h3>
+							<p>Led by:<br/> <a href="{{ post.collab1_link }}"> {{ post.collab1 }}</a>, {{ post.aff1 }} 
+							{% if post.collab2 %}
+							and <a href="{{ post.collab2_link }}">{{ post.collab2 }}</a>, {{ post.aff2 }}<br/></p>
+							{% endif %}
+							{% if post.status == "Learn More" %}
+							<ul class="actions">
+								<li><a href="{{ post.link }}" class="button">Learn More</a></li>
+							</ul>
+							{% else %}
+							<span class="btn nohover"><strong>Coming Soon</strong></span>
+							{% endif %}
+						</article>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</section>
