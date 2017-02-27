@@ -5,7 +5,7 @@ name: Bill Howe
 aff: UW Information School
 img: bill.png
 link: https://ischool.uw.edu/people/faculty/billhowe
-alt: image-alt
+alt: Bill Howe
 project: Director, Responsible Data Management
 
 ---

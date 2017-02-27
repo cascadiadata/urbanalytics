@@ -5,7 +5,7 @@ name: Ariel Rokem
 aff: UW eScience Institute
 img: ariel.png
 link: http://escience.washington.edu/people/ariel-rokem/
-alt: image-alt
+alt: Ariel Rokem
 project: Housing Stability
 
 ---

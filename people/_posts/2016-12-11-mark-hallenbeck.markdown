@@ -5,7 +5,7 @@ name: Mark Hallenbeck
 aff: Washington State Transportation Center
 img: mark.png
 link: http://www.engr.washington.edu/news/hallenbeck_ite_2013.html
-alt: image-alt
+alt: Mark Hallenbeck
 project: Transportation
 
 ---
