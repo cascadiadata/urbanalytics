@@ -11,6 +11,6 @@ collab2: Ariel Rokem
 collab2_link: http://escience.washington.edu/people/ariel-rokem/
 aff2: UW eScience
 status: Coming Soon
-layout: 4u -2u
+layout: 4u 6u$(2) 12u$(3)
 
 ---
