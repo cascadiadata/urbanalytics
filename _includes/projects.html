@@ -4,7 +4,7 @@
 					<h2>Affiliated Projects</h2>
 				<div class="row">
 					{% for post in site.categories.projects %}
-					<div class="{{ post.layout }}">
+					<div class="{{ post.home_layout }}">
 						<article class="box post project">
 							<a href="{{ post.link }}" class="image fit"><img src="images/{{ post.img }}" alt="{{ post.alt }}" /></a>
 							<h3>{{ post.name }}</h3>
@@ -14,8 +14,13 @@
 							{% endif %}
 							{% if post.status == "Learn More" %}
 							<ul class="actions">
+								{% if post.link %}
 								<li><a href="{{ post.link }}" class="button">Learn More</a></li>
+								</ul>
+								{% else %}	
+								<li><a href="{{ post.url }}" class="button">Learn More</a></li>
 							</ul>
+								{% endif %}
 							{% else %}
 							<span class="btn nohover"><strong>Coming Soon</strong></span>
 							{% endif %}

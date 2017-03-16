@@ -144,7 +144,11 @@ Custom
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
-
+	figcaption{
+		font-size:.8em;
+		line-height:1.1em;
+		margin-bottom:2em;
+	}
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 0.5em;
@@ -1378,6 +1382,12 @@ Custom
 			display: inline-block;
 			margin: 0;
 		}
+
+/* Project */
+	.project_content h2{margin-bottom: 5px}
+	.project_content p.attrib{
+		font-style:italic; 
+		font-size:.9em;}		
 
 /* Footer */
 

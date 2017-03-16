@@ -1,0 +1,22 @@
+<!-- Affiliated Projects e -->
+		<section id="projects" class="wrapper style1">
+			<div class="container">
+				<div class="row">
+					<div>
+						<article class="project_content">
+							<h2>{{ page.name }}</h2>
+							<p class="attrib">Led by:<a href="{{ page.collab1_link }}"> {{ page.collab1 }}</a>, {{ page.aff1 }} 
+							{% if page.collab2 %}
+							and <a href="{{ page.collab2_link }}">{{ page.collab2 }}</a>, {{ page.aff2 }}<br/></p>
+							<div>
+							{{ content }}	
+							</div>
+							{% endif %}
+							<figure><img src="{{site.baseurl}}/images/projects/{{ page.img_content }}" alt="{{ page.img_alt }}" />
+<figcaption>{{page.img_caption}}</figcaption>
+							</figure>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>

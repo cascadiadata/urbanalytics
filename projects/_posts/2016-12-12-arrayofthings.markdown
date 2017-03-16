@@ -13,6 +13,6 @@ collab2: Michael Mattmiller
 collab2_link: https://www.linkedin.com/in/mikematt
 aff2: City of Seattle
 status: Learn More
-layout: 4u 6u$(2) 12u$(3)
+home_layout: 4u 6u$(2) 12u$(3)
 
 ---

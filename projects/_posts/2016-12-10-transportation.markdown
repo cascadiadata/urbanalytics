@@ -9,6 +9,6 @@ collab1: Mark Hallenbeck
 collab1_link: http://www.engr.washington.edu/news/hallenbeck_ite_2013.html
 aff1: Washington State Transportation Center
 status: Learn More
-layout: 4u 6u$(2) 12u$(3)
+home_layout: 4u 6u$(2) 12u$(3)
 
 ---

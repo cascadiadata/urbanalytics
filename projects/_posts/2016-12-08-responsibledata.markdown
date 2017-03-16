@@ -11,6 +11,7 @@ collab2: Bill Howe
 collab2_link: https://ischool.uw.edu/people/faculty/billhowe
 aff2: UW Information School
 status: Coming Soon
-layout: 4u -u
+home_layout: 4u -u
+layout: project
 
 ---
