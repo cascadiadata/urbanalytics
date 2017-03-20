@@ -11,7 +11,7 @@ collab2: Ariel Rokem
 collab2_link: http://escience.washington.edu/people/ariel-rokem/
 aff2: UW eScience
 status: Learn More
-home_layout: 4u -u
+home_layout: 4u 6u$(2) 12u$(3)
 img_content: Housing_Sankey.jpg
 img_caption: A visualization of trajectories through the services provided by King County to families experiencing homelessness, created by DSSG student Jason Portenoy who worked on a related project in the summer of 2015.
 img_alt: Housing Sankey Diagram
@@ -28,4 +28,4 @@ We are interested in answering the following questions:
 2. What are the outcomes of different services, as a function of the characteristics of families (their composition, demographics, income and employment, etc.), and the timing of providing these families with these services.
 
 
-This work is supported by funding from the [Bill and Melinda Gates Foundation](http://gatesfoundation.org/).
+_This work is led by [Bryna Hazelton](http://escience.washington.edu/people/ariel-rokem/) and [Ariel Rokem](http://escience.washington.edu/people/ariel-rokem/) with funding support from the [Bill and Melinda Gates Foundation](http://gatesfoundation.org/)._
