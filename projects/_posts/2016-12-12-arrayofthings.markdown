@@ -3,7 +3,6 @@ layout: project
 
 name: Array of Things
 img: arrayofthings.png
-link: http://arrayofthings.github.io/
 alt: image-alt
 project: Responsible Data Management
 collab1: Charlie Catlett
@@ -45,20 +44,20 @@ Pilot AoT nodes were installed in Chicago in August of 2016, with 500 total plan
 * Movement 
 
 ### Local Partners:
-[Seattle City Light](http://www.seattle.gov/light/)
-[Seattle Public Utilities](http://www.seattle.gov/util/abtest/home/r/)
-[Seattle Department of Neighborhoods](https://www.seattle.gov/neighborhoods/)
-[Seattle Department of Information Technology](http://www.seattle.gov/tech)
+[Seattle City Light](http://www.seattle.gov/light/)  
+[Seattle Public Utilities](http://www.seattle.gov/util/abtest/home/r/)  
+[Seattle Department of Neighborhoods](https://www.seattle.gov/neighborhoods/)  
+[Seattle Department of Information Technology](http://www.seattle.gov/tech)  
 
-[UW eScience Institute](http://escience.washington.edu/)
-[UW iSchool](https://ischool.uw.edu/)
-[Urban@UW](http://urban.uw.edu/)
-[UW Urban Form Lab](http://depts.washington.edu/ufl/)
+[UW eScience Institute](http://escience.washington.edu/)  
+[UW iSchool](https://ischool.uw.edu/)  
+[Urban@UW](http://urban.uw.edu/)  
+[UW Urban Form Lab](http://depts.washington.edu/ufl/)  
 
-###Remote Partners:
-[University of Chicago](http://www.uchicago.edu/)
-[Urban Center for Computation and Data](http://www.urbanccd.org/)
-[Argonne National Labs](https://www.anl.gov/)
+### Remote Partners:
+[University of Chicago](http://www.uchicago.edu/)  
+[Urban Center for Computation and Data](http://www.urbanccd.org/)  
+[Argonne National Labs](https://www.anl.gov/)  
 
 
 _Developed through a collaboration between the [University of Chicago](http://www.uchicago.edu/) and [Argonne National Labs](https://www.anl.gov/). Array of Things research in Chicago was made possible through funding from the National Science Foundation._
