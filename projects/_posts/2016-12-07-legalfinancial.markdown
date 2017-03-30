@@ -10,7 +10,7 @@ aff1: Microsoft
 collab2: Kivan Polimis
 collab2_link: https://github.com/kpolimis
 aff2: UW Sociology
-status: Coming Soon
+status: Learn More
 home_layout: 4u 6u$(2) 12u$(3)
 
 
