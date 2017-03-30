@@ -3,7 +3,7 @@ layout: project
 
 name: Legal Financial Obligations
 img: legalobligation.png
-alt: responsible data management icon
+alt: Legal Financial Obligations icon
 collab1: Graham Thompson
 collab1_link: https://blogs.microsoft.com/on-the-issues/author/grahamthompson/#sm.0000fdrwqfwb5dbvxn71n89fvgy8f
 aff1: Microsoft

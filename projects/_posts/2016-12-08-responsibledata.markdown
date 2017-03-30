@@ -12,7 +12,6 @@ collab2_link: https://ischool.uw.edu/people/faculty/billhowe
 aff2: UW Information School
 status: Learn More
 home_layout: 4u 6u$(2) 12u$(3)
-layout: project
 img_content: SQLShare.png
 img_alt: SQLShare screengrab
 ---

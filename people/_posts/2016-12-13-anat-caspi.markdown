@@ -6,6 +6,6 @@ aff: Taskar Center for Accessible Technology
 img: anat.png
 link: https://tcat.cs.washington.edu/people/caspi
 alt: Anat Caspi
-project: OpenSidewalks
+project: OpenSidewalks, Transportation
 
 ---
