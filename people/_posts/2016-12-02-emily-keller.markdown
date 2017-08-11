@@ -1,7 +1,7 @@
 ---
 layout: default
 
-name: Emily Keller
+name: Emily F. Keller
 aff: UW Information School
 img: emily.png
 link: https://ischool.uw.edu/people/staff/efkeller

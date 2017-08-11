@@ -21,7 +21,7 @@ img_alt: Array of Things Sensor
 
 The [Array of Things](http://arrayofthings.github.io/) (AoT) is a modular, open-source, network of interactive sensor boxes (nodes), collecting and returning urban data in real time to citizens, scientists and policy makers.  Sensor arrays bring a new depth to the information available on our city's environment and transportation networks. This in turn can support smarter policy decisions around a range of complex challenges, from flooding and air quality to pedestrian traffic and road conditions.     
 
-Pilot AoT nodes were installed in Chicago in August of 2016, with 500 total planned for installation by 2018. The Urbanalytics Studio is working together with the [City of Seattle](http://seattle.gov/) on the nation's first AoT deployment of the outside of Chicago.  Specifically the Urbanalytics Lab is working on how best to approach the following:  
+Pilot AoT nodes were installed in Chicago in August of 2016, with 500 total planned for installation by 2018. The Urbanalytics Studio is working together with the [City of Seattle](http://seattle.gov/) on the nation's first AoT deployment outside Chicago.  Specifically the Urbanalytics Lab is working on how best to approach the following:  
 
 * **Equity:** How does AoT benefit underserved schools and communities, and how can these groups be involved in the decision making processes? 
 * **Community Engagement:** Through an open web portal, making data available to people that are interested, real time access to data measurements, as well through potential involvement in the placement process. 
