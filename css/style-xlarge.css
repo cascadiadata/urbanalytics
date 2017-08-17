@@ -16,11 +16,11 @@
 		padding: 5em 0;
 	}
 	.box.post.project{
-			min-height:460px;
-			max-height:460px;
+			height:460px;
+			
 		}
 
 		#people .box.post{
-			max-height:380px;
-			min-height:375px;
+			height:380px;
+		
 		}

@@ -4,6 +4,11 @@
 	License: pixelarity.com/license
 */
 
+
+#people .box.post{
+			height:450px;
+		}
+
 /* Basic */
 
 	body, input, select, textarea {

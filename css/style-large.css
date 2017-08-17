@@ -22,3 +22,10 @@
 		background-attachment: scroll;
 		padding: 8em 0;
 	}
+
+
+/*People */
+	#people .box.post{
+			height:400px;
+		
+		}

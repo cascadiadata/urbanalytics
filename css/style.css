@@ -19,7 +19,8 @@ Custom
 		text-decoration:none;
 		border-bottom:none;
 }
-
+#people .box.post{padding-top:0!important;
+margin-top:20px;}
 
 /* Basic */
 
