@@ -1,37 +1,58 @@
 <!-- Affiliated Projects e -->
 		<section id="projects" class="wrapper style1">
 			<div class="container">
-					<h2>Affiliated Projects</h2>
 				<div class="row">
-					{% for post in site.categories.projects %}
+					
 					<div class="4u 6u(2) 12u$(3)">
 						<article class="box post project">
+							<img src="images/transportation.png" alt="Equitable Transportation Icon" height="30%"/></a>
+							<h2 >Equitable Transportation</h2>
+							<ul class="alt">
+							{% for post in site.categories.transportation %}
 							{% if post.link %}
-							<a href="{{ post.link }}" class="image fit">
+							<li><h3> <a href="{{ post.link }}" >{{ post.name}}</a></h3></li>
 							{% else %}	
-							<a href="{{ post.url }}" class="image fit">
+							<li><h3> <a href="{{ post.url }}" >{{ post.name }}</a></h3></li>
 							{% endif %}
-							<img src="images/{{ post.img }}" alt="{{ post.alt }}" /></a>
-							<h3>{{ post.name }}</h3>
-							<p>Led by:<br/> <a href="{{ post.collab1_link }}"> {{ post.collab1 }}</a>, {{ post.aff1 }} 
-							{% if post.collab2 %}
-							and <a href="{{ post.collab2_link }}">{{ post.collab2 }}</a>, {{ post.aff2 }}<br/></p>
-							{% endif %}
-							{% if post.status == "Learn More" %}
-							<ul class="actions">
-								{% if post.link %}
-								<li><a href="{{ post.link }}" class="button">Learn More</a></li>
-								</ul>
-								{% else %}	
-								<li><a href="{{ post.url }}" class="button">Learn More</a></li>
+							{% endfor %}
 							</ul>
-								{% endif %}
-							{% else %}
-							<span class="btn nohover"><strong>Coming Soon</strong></span>
-							{% endif %}
 						</article>
 					</div>
-					{% endfor %}
+
+
+					<div class="4u 6u(2) 12u$(3)">
+						<article class="box post project">
+							<img src="images/data_icon.png" alt="Responsible Data Management Icon" height="30%"/></a>
+							<h2>Responsible Data Management</h2>
+							<ul class="alt">
+							{% for post in site.categories.responsible-data %}
+							{% if post.link %}
+							<li><h3><a href="{{ post.link }}" >{{ post.name}}</a></h3></li>
+							{% else %}	
+							<li><h3><a href="{{ post.url }}" >{{ post.name }}</a></h3></li>
+							{% endif %}
+							{% endfor %}
+							</ul>
+						</article>
+					</div>
+
+					<div class="4u 6u(2) 12u$(3)">
+						<article class="box post project">
+							<img src="images/homelessness.png" alt="Data Driven Human Services Icon" height="30%"/></a>
+							<h2 >Data-Driven Human Services</h2>
+							<ul class="alt">
+							{% for post in site.categories.human-services %}
+							{% if post.link %}
+							<li><h3><a href="{{ post.link }}" >{{ post.name}}</a></h3></li>
+							{% else %}	
+							<li><h3><a href="{{ post.url }}" >{{ post.name }}</a></h3></li>
+							{% endif %}
+							{% endfor %}
+							</ul>
+						</article>
+					</div>
+
+					
 				</div>
 			</div>
 		</section>
