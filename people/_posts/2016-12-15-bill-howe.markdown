@@ -1,11 +1,11 @@
 ---
 layout: default
 
-name: Bill Howe
-aff: UW Information School
-img: bill.png
-link: https://ischool.uw.edu/people/faculty/billhowe
-alt: Bill Howe
-project: Director, Responsible Data Management
+name: Thaisa Way
+aff: College of Built Environments
+img: thaisa.jpg
+link: http://www.thaisaway.com/
+alt: Thaisa Way
+project: Director, Urban@UW
 
 ---
