@@ -1,0 +1,11 @@
+---
+layout: default
+
+name: Matthew Gee
+aff: Impact Lab; Center for Data Science and Public Policy, University of Chicago
+img: matthew.jpeg
+link: http://dsapp.uchicago.edu/
+alt: Matthew Gee
+project: Responsible Data Management
+
+---
