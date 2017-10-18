@@ -6,6 +6,6 @@ aff: UW Information School
 img: emily.png
 link: https://ischool.uw.edu/people/staff/efkeller
 alt: Emily Keller
-project: Urbanalytics
+project: Urbanalytics, Cascadia Urban Analytics Cooperative
 
 ---
