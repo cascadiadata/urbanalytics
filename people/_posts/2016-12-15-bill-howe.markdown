@@ -2,7 +2,7 @@
 layout: default
 
 name: Thaisa Way
-aff: College of Built Environments
+aff: UW College of Built Environments
 img: thaisa.jpg
 link: http://www.thaisaway.com/
 alt: Thaisa Way
