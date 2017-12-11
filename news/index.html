@@ -1,0 +1,70 @@
+---
+layout: news
+---
+<style>
+	section#post{
+		background: #f5f5f5;
+	}
+	section#post > .center{
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2vw;
+		column-count: 3;
+		column-gap: 2vw;
+	}
+	.post{
+		width: 100%;
+		background: #fff;
+		display: inline-block;
+		margin: 10px 0;
+	}
+	.post a{
+		border-bottom: none;
+	}
+	.post h1, .post .date, .post p{
+		padding: 0 16px 0 16px; 
+	}
+	.post h1{
+		line-height: 30px;
+		margin-top: -20px;
+	}
+	.post .date{
+		font-size: 11px;
+		color: #999;
+	}
+	.post img{
+		width: 100%;
+	}
+	.empty{
+		font-size: 40px;
+		height: 500px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #999;
+	}
+
+	@media(max-width: 600px){
+		section#post > .center{
+			column-count: 1;
+		}
+	}
+</style>
+<section id="post">
+	{% if site.categories.news == null %}
+		<div class="empty">There is no post yet</div>
+	{% else %}
+		<div class="center">
+		{% for post in site.categories.news %}
+			<div class="post">
+				{% if post.image %}
+					<a href="{{post.url}}"><img src="/{{post.image}}"></a>
+				{% endif %}
+				<p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+				<h1><a href="{{post.url}}">{{post.title}}</a></h1>
+				<p>{{post.excerpt}}</p>
+			</div>
+		{% endfor %}
+		</div>
+	{% endif %}
+</section>
