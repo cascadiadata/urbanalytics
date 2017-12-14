@@ -1,29 +1,49 @@
-<!-- Footer -->
-			<footer id="footer">
-			<ul class="icons">
-					<li><a href="mailto:urbandat@uw.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					<li><a href="https://twitter.com/uwurbanalytics" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				</ul>
-				<!--<ul class="menu">
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Terms of Use</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul> -->				
-				<div class="4u 6u(2) 12u$(3)" style="margin-left:auto; margin-right:auto">
-  <a class="twitter-timeline" data-height="500" data-link-color="#4b2e83" href="https://twitter.com/uwurbanalytics">Tweets by Urbanalytics</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-				<span class="copyright">
-					&copy; Urbanalytics 2017. All rights reserved. Template by <a href="http://www.html5webtemplates.co.uk">Responsive Web Templates</a>
-				</span>
-			</footer>
-			<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<style>
+	#uw-logo{
+		background: #4b2e83;
+		height: 150px;
+		margin-top: 50px;
+	}
+	#uw-logo .container{
+		height: 100%;	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#global-footer{
+		width: 100%;
+		background: #fff;
+		padding: 16px 0;
+	}
+	#global-footer #twitter-feed{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	#global-footer #copyright{
+		color: #999;
+		font-size: 14px;
+		text-align: center;
+		padding: 32px 0;
+	}
+</style>
+<footer id="uw-logo">
+	<div class="container center">
+		<img src="/images/footer/uw-logo.png" srcset="/images/footer/uw-logo.png 1x, /images/footer/uw-logo@2x.png 2x" width="50">
+	</div>
+</footer>
+<footer id="global-footer">
+	<div class="container center">
+		<div id="twitter-feed">
+			<a class="twitter-timeline" data-height="500" data-link-color="#4b2e83" href="https://twitter.com/uwurbanalytics">Tweets by Urbanalytics</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+		<div id="copyright">Urbanalytics 2017. All rights reserved.</div>
+	</div>
+</footer>
 
-  ga('create', 'UA-86542874-1', 'auto');
-  ga('send', 'pageview');
 
-</script>
+
+<!--<ul class="icons">
+		<li><a href="mailto:urbandat@uw.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+		<li><a href="https://twitter.com/uwurbanalytics" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+	</ul>

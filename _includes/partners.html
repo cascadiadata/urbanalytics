@@ -1,8 +1,25 @@
-<!-- Partners -->
-		
-		<section id="partners" class="wrapper style1 align-center">
-			<h2>Partners / Sponsors</h2>
-			{% for post in site.categories.partners %}
-			<a href="{{ post.link }}"><img src="images/partners/{{ post.img }}"></a>
-			{% endfor %}
-		</section>
+<style>
+	#partners .container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#partners .card{
+		width: 40vw;
+		max-width: 216px;
+	}
+	#partners .card img{
+		width: 100%;
+	}
+</style>
+<section id="partners" class="nav-anchor">
+	<h1>Partners / Sponsors</h1>
+	<div class="container">
+		{% for partner in page.partners %}
+		<a href="{{ partner.link }}">
+			<div class="card">
+				<img src="images/partners/{{ partner.img }}">
+			</div>
+		</a>
+		{% endfor %}
+	</div>
+</section>

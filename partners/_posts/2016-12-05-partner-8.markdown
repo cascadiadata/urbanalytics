@@ -1,7 +1,0 @@
----
-layout: default
-
-img: macarhtur.png
-link: https://www.macfound.org/
-
----

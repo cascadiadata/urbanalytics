@@ -1,7 +1,0 @@
----
-layout: default
-
-img: trac.png
-link: http://depts.washington.edu/trac/
-
----

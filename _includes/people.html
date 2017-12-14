@@ -1,17 +1,51 @@
-<!-- People -->
-			<section id="people" class="wrapper style2">
-				<div class="container">
-					<h2>People</h2>
-					<div class="row uniform">
-					{% for post in site.categories.people %}
-						<div class="3u 6u(4) 6u(3)">
-							<article class="box post">
-								<a href="{{ post.link }}" class="image fit"><img src="images/people/{{ post.img }}" alt="{{ post.alt }}" /></a>
-								<p><a href="{{ post.link }}">{{ post.name }}</a>, {{ post.aff }}</p>
-								<i>{{ post.project }}</i>
-							</article>
-						</div>
-					{% endfor %}
-					</div>
-				</div>
-			</section>
+<style>
+	#people .container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#people .card{
+		width: 20%;
+		max-width: 250px;
+		min-width: 150px;
+		overflow: hidden;
+		transition: all 0.5s;
+	}
+	#people .card img{
+		width: 100%;
+	}
+	#people .card span{
+		font-size: 20px;
+		display: block;
+		padding: 16px 16px 0 16px;
+	}
+	#people .card p{
+		padding: 0 16px;
+		font-size: 14px;
+		color: #666;
+	}
+	#people .card *{
+		transition: all 0.5s;
+	}
+	#people .card:hover{
+		background: #4b2e83;
+	}
+	#people .card:hover *{
+		color: #fff;
+	}
+	#people .card:hover img{
+		transform: scale(0.95, 0.95);
+	}
+</style>
+<section id="people" class="nav-anchor">
+	<h1>People</h1>
+	<div class="container">
+		{% for people in page.people %}
+		<div class="card">
+			<a href="{{ people.link }}"><img src="images/people/{{ people.img }}" alt="{{ people.alt }}"></a>
+			<a href="{{ people.link }}"><span>{{ people.name }}</span></a>
+			<p>{{ people.aff }}</p>
+			<p>{{ people.project }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</section>

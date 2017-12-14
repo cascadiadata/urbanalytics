@@ -1,21 +1,96 @@
-<!-- Affiliated Projects e -->
-		<section id="projects" class="wrapper style1">
-			<div class="container">
-				<div class="row">
-					<div>
-						<article class="project_content">
-							<h2>{{ page.name }}</h2>
-							<div>
-							{{ content }}	
-							</div>
-							<figure >
-								<img class="image fit" src="{{site.baseurl}}/images/projects/{{ page.img_content }}" alt="{{ page.img_alt }}" />
-								<figcaption>{{page.img_caption}}</figcaption>
+<style>
+	#project > h1{
+		color: #4b2e83;
+		font-weight: normal;
+	}
+	#project img{
+		width: 100%;
+	}
+	#project figcaption{
+		font-size: 13px;
+		color: #666;
+	}
+	#project aside{
+		width: 200px;
+		position: absolute;
+		right: 0;
+		top: 40px;
+		font-size: 12px;
+		line-height: 20px;
+		color: #666;
+		padding: 16px 8px;
+		text-align: left;
+		border-left: 1px solid #ccc;
+	}
+	#project aside h1{
+		margin: 0 0 4px 0;
+	}
+	#project aside a{
+		display: block;
+		padding: 0 8px;
+		border-radius: 3px;
+		color: #4b2e83;
+	}
+	#project aside a:hover{
+		background: #eee;
+	}
+	@media (max-width: 1200px){
+		#project aside{
+			width: 100%;
+			position: relative;
+			border: none;
+			font-size: 14px;
+			border-top: 1px solid #ccc;
+		}
+		#project aside h1{
+			margin-bottom: 5px;
+			font-size: 16px;
+			color: #333;
+		}
+		#project aside a{
+			padding: 8px 16px;
+		}
+	}
+</style>
+<section id="project">
+	<h1>{{ page.name }}</h1>
+	<div class="container center">
+		<article>
+		{{ content }}	
+		</article>
+		
+		<figure>
+			<img class="image fit" src="/images/projects/{{ page.img_content }}" alt="{{ page.img_alt }}" />
+			<figcaption>{{page.img_caption}}</figcaption>
+		</figure>
+		<aside>
+			<h1>Our Projects</h1>
+			<span>Equitable Transportation</span>
+			{% for post in site.categories.transportation %}
+				{% if post.link %}
+					<a href="{{ post.link }}">{{ post.name }}</a>
+				{% else %}
+					<a href="{{ post.url }}">{{ post.name }}</a>
+				{% endif %}
+			{% endfor %}
 
-							</figure>
-						
-						</article>
-					</div>
-				</div>
-			</div>
-		</section>
+			<span>Responsible Data Management</span>
+			{% for post in site.categories.responsible-data %}
+				{% if post.link %}
+					<a href="{{ post.link }}">{{ post.name }}</a>
+				{% else %}
+					<a href="{{ post.url }}">{{ post.name }}</a>
+				{% endif %}
+			{% endfor %}
+
+			<span>Data-Driven Human Services</span>
+			{% for post in site.categories.human-services %}
+				{% if post.link %}
+					<a href="{{ post.link }}">{{ post.name }}</a>
+				{% else %}
+					<a href="{{ post.url }}">{{ post.name }}</a>
+				{% endif %}
+			{% endfor %}
+		</aside>
+	</div>
+</section>

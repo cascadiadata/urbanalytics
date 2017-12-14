@@ -1,7 +1,0 @@
----
-layout: default
-
-img: ischool.png
-link: https://ischool.uw.edu/
-
----
