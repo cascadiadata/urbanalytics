@@ -8,7 +8,7 @@
 		max-width: 250px;
 		min-width: 150px;
 		overflow: hidden;
-		transition: all 0.5s;
+		transition: background 0.5s;
 	}
 	#people .card img{
 		width: 100%;
@@ -34,6 +34,14 @@
 	}
 	#people .card:hover img{
 		transform: scale(0.95, 0.95);
+	}
+	@media(max-width: 600px){
+		#people .card{
+			width: calc(50vw - 24px);
+			margin: 4px;
+			max-width: none;
+			min-width: none;
+		}
 	}
 </style>
 <section id="people" class="nav-anchor">
