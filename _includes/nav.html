@@ -72,13 +72,13 @@
 	<a class="logo" href="/"><img id="logo" src="/images/nav/logo.png" srcset="/images/nav/logo.png 1x, /images/nav/logo@2x.png 2x" width="163" height="38"></a>
 	<aside>
 		<div id="tabs">
-			<a href="/#projects" anchor>Affiliated Projects</a>
+			<a href="/#projects" anchor {% if include.page == "project" %} selected {% endif%}>Affiliated Projects</a>
 			<a href="/#about" anchor>About</a>
 			<a href="/#cuac" anchor>CUAC</a>
 			<a href="/#metrolab" anchor>Metrolab</a>
 			<a href="/#people" anchor>People</a>
 			<a href="/#partners" anchor>Partners/Sponsors</a>
-			<a href="/news/">News</a>
+			<a href="/news/" {% if include.page == "news" %} selected {% endif%}>News</a>
 		</div>
 		<div id="extensions">
 			<a href="mailto:urbandat@uw.edu">Send Us Email</a>
@@ -86,6 +86,7 @@
 		</div>
 	</aside>
 </nav>
+{% if include.page == "homepage" %}
 <script>
 	$(function(){
 		var offsets,
@@ -137,3 +138,4 @@
 		history.replaceState("", document.title, window.location.pathname);
 	})
 </script>
+{% endif %}
