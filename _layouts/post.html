@@ -1,0 +1,87 @@
+---
+layout: news
+---
+<style>
+	#post main{
+		background: #fff;
+		max-width: 800px;
+		margin: 30px auto 0 auto;
+	}
+	#post main img{
+		width: 100%;
+		display: block;
+	}
+	#post main article{
+		padding: 16px 48px;
+	}
+	#post main span{
+		display: block;
+		text-transform: uppercase;
+		color: #999;
+		font-size: 13px;
+		margin: 16px 0;
+	}
+	#post main h1{
+		font-size: 36px;
+		color: #000;
+		line-height: 48px;
+		text-align: left;
+	}
+	#post main article *{
+		width: 100%;
+	}
+	#post footer{
+		text-align: left;
+		padding: 50px 48px;
+	}
+	#post footer ul, #post footer li{
+		list-style-type: none;
+		padding: 0 !important;
+		font-size: 14px;
+	}
+	#post footer a{
+		color: #666;
+	}
+	.caption{
+		padding: 8px 48px 8px 48px;
+		color: #999;
+		font-size: 12px;
+		background: #fafafa
+	}
+
+	@media(max-width: 1000px){
+		#post{
+			flex-wrap: wrap;
+		}
+		#post main{
+			margin-top: 2vw
+		}
+		#post main article{
+			padding: 8px 5vw;
+		}
+		.caption{
+			padding: 8px 5vw 8px 5vw;
+		}
+	}
+</style>
+<section id="post">
+	<div class="container center">
+		<main>
+			{% if page.image %}
+				<img src="/{{page.image}}">
+			{% endif %}
+			{% if page.caption %}
+				<div class="caption">Caption: {{page.caption}}</div>
+			{% endif %}
+			<article>
+				<span>{{page.date | date: "%B %d, %Y" }} / BY <a>{{page.author}}</a></span>
+				<h1><a>{{ page.title }}</a></h1>
+				<p>{{ content }}</p>
+			</article>
+
+			<footer>
+				{% include sidebar.html %}
+			</footer>
+		</main>
+	</div>
+</section>

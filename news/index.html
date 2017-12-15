@@ -1,0 +1,73 @@
+---
+layout: news
+---
+<style>
+	#post > .container{
+		column-count: 3;
+		column-gap: 1vw;
+		text-align: left;
+	}
+	.card{
+		width: 100%;
+		display: inline-block;
+		margin: 10px 0;
+		box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+		border-top: 3px solid #4b2e83;
+	}
+	.card h1, .card span, .card p{
+		padding: 0 16px 0 16px; 
+		margin: 0;
+		line-height: 1.5em
+	}
+	.card h1{
+		font-weight: normal;
+		font-size: 20px;
+		padding: 8px 16px;
+	}
+	.card span{
+		padding-top: 16px;
+		display: block;
+		font-size: 13px;
+		color: #aaa;
+	}
+	.card p{
+		padding-bottom: 16px;
+		font-size: 14px;
+		color: #666;
+	}
+	.card img{
+		width: 100%;
+	}
+	.empty{
+		font-size: 40px;
+		height: 500px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #999;
+	}
+
+	@media(max-width: 600px){
+		#post > .container{
+			column-count: 1;
+		}
+	}
+</style>
+<section id="post">
+	{% if site.categories.news == null %}
+		<div class="empty">There is no post yet</div>
+	{% else %}
+		<div class="container center">
+		{% for post in site.categories.news %}
+			<a href="{{post.url}}"><div class="card">
+				{% if post.image %}
+					<img src="/{{post.image}}">
+				{% endif %}
+				<span>{{post.date | date: "%B %d, %Y" }}</span>
+				<h1>{{post.title}}</h1>
+				<p>{{post.excerpt}}</p>
+			</div></a>
+		{% endfor %}
+		</div>
+	{% endif %}
+</section>
