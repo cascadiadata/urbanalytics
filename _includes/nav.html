@@ -70,7 +70,7 @@
 		background: #4b2e83;
 		color: #fff;
 		padding: 8px;
-		border-radius: 3px;
+		margin: 0;
 		display: none;
 	}
 	@media (max-width: 600px){
@@ -107,9 +107,9 @@
 		</div>
 	</aside>
 		{% if include.page == "homepage" %}
-			<a id="button" href="/news/">News</a>
+			<a id="button" class="card" href="/news/">News</a>
 		{% else %}
-			<a id="button" href="/">Home</a>
+			<a id="button" class="card" href="/">Home</a>
 		{% endif %}
 </nav>
 {% if include.page == "homepage" %}
