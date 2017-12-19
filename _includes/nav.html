@@ -62,9 +62,29 @@
 	.global-nav #extensions a:hover{
 		background: #ccc;
 	}
+
+	.global-nav #button{
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		background: #eee;
+		padding: 8px;
+		border-radius: 3px;
+		display: none;
+	}
 	@media (max-width: 600px){
+		body{
+			padding-top: 70px;
+		}
 		.global-nav aside{
 			display: none;
+		}
+		.global-nav{
+			position: fixed;
+			top: 0px;
+		}
+		.global-nav #button{
+			display: block;
 		}
 	}
 </style>
@@ -85,6 +105,11 @@
 			<a href="https://twitter.com/uwurbanalytics">Follow Our Twitter</a>
 		</div>
 	</aside>
+		{% if include.page == "homepage" %}
+			<a id="button" href="/news/">News</a>
+		{% else %}
+			<a id="button" href="/">Home</a>
+		{% endif %}
 </nav>
 {% if include.page == "homepage" %}
 <script>
