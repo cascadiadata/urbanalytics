@@ -4,3 +4,4 @@ _site
 news/_posts/.DS_Store
 .DS_Store
 .DS_Store
+_includes/footer.html

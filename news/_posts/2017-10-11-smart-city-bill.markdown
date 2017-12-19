@@ -5,6 +5,11 @@ date:   2017-10-11 10:57:12
 excerpt:
   On October 2, State Senator Maria Cantwell (D-WA), Congresswoman Suzan DelBene (D-WA), and Congressman Ben Ray Luján of New Mexico (D-NM) proposed the Smart Cities and Communities Act of 2017. 
 author: Emily F. Keller
+tags:
+  - Education
+  - Bill
+  - International Cooperation
+  - Cybersecurity
 ---
 
 A new federal bill could bring millions of dollars to municipalities of all sizes to facilitate the adoption of new technologies such as sensors, traffic management systems and environmental monitors, while replacing aging infrastructure.
