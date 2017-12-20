@@ -1,17 +1,8 @@
 ---
 layout: project
+permalink: /projects/:title/
 
-name: Data Integration for Homelessness Services 
-img: homelessness.png
-alt: homelessness family icon
-collab1: Bryna Hazelton
-collab1_link: http://escience.washington.edu/people/bryna-hazelton/
-aff1: UW eScience
-collab2: Ariel Rokem
-collab2_link: http://escience.washington.edu/people/ariel-rokem/
-aff2: UW eScience
-status: Learn More
-home_layout: 4u 6u$(2) 12u$(3)
+name: Data Integration for Homelessness Services
 img_content: Housing_Sankey.jpg
 img_caption: A visualization of trajectories through the services provided by King County to families experiencing homelessness, created by DSSG student Jason Portenoy who worked on a related project in the summer of 2015.
 img_alt: Housing Sankey Diagram

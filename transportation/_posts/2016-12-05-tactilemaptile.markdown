@@ -1,17 +1,8 @@
 ---
 layout: project
+permalink: /projects/:title/
 
 name: Tactile MapTile
-img: tactilemaptile.png
-alt: Tactile MapTile Logo
-collab1: Anat Caspi
-collab1_link: https://tcat.cs.washington.edu/people/caspi
-aff1: Taskar Center for Accessible Technology
-collab2: Jess Hamilton
-collab2_link: http://jesshami.github.io
-aff2: UW Department of Landscape Architecture
-status: Learn More
-home_layout: 4u 6u$(2) 12u$(3)
 img_content: tactilemaps.png
 img_alt: Tactile Maps in Use
 

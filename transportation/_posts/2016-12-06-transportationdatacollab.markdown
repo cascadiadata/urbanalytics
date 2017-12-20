@@ -1,17 +1,8 @@
 ---
 layout: project
+permalink: /projects/:title/
 
 name: Transportation Data Collaborative
-img: transportdata.png
-alt: Transportation Data Icon
-collab1: Jan Whittington
-collab1_link: http://urbdp.be.washington.edu/people/jan-whittington/
-aff1: UW Urban Design and Planning
-collab2: Mark Hallenbeck 
-collab2_link: http://www.engr.washington.edu/news/hallenbeck_ite_2013.html
-aff2: Washington State Transportation Center
-status: Learn More
-home_layout: 4u 6u$(2) 12u$(3)
 img_content: seattletraffic.jpg
 img_alt: Seattle Traffic Photo
 img_caption: MLK and Rainier Ave, Seattle. Photo by <a href="https://www.flickr.com/photos/rutlo/3059187695/in/photolist-S4Nw6h-QRgooU-drEz-82NJWJ-7wi4Xb-78mrqh-7Qtb5b-5Ek8Vr-4vbULC-eBux8-78mrmY-4QdP8s-6CMsZK-5R9FKR-pyhVM-8n8hTb-kTjqM-8BMNXp-3AGDx-5SEFZ5-5mnxN-5EkcXF-3dD5a4-yDaPcx-47LGg-7GSbvY-78hxEF-JAH83-B1dr2">Matthew Rutledge</a> | CC BY-NC 2.0
