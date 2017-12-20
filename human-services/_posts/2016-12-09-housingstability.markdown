@@ -7,6 +7,9 @@ img_content: Housing_Sankey.jpg
 img_caption: A visualization of trajectories through the services provided by King County to families experiencing homelessness, created by DSSG student Jason Portenoy who worked on a related project in the summer of 2015.
 img_alt: Housing Sankey Diagram
 
+people:
+  - Bryna Hazelton
+  - Ariel Rokem
 ---
 
 Housing stability and homelessness have emerged as major problems that accompany the rapid growth and economic development of cities. For example, Seattle is one of the most rapidly growing big cities in the US, but this growth has been accompanied by an alarming rise in homelessness over the last decade, despite a decrease in homelessness both nation-wide, and in the state of Washington over the same period. 

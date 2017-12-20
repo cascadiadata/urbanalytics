@@ -7,6 +7,10 @@ img_content: seattletraffic.jpg
 img_alt: Seattle Traffic Photo
 img_caption: MLK and Rainier Ave, Seattle. Photo by <a href="https://www.flickr.com/photos/rutlo/3059187695/in/photolist-S4Nw6h-QRgooU-drEz-82NJWJ-7wi4Xb-78mrqh-7Qtb5b-5Ek8Vr-4vbULC-eBux8-78mrmY-4QdP8s-6CMsZK-5R9FKR-pyhVM-8n8hTb-kTjqM-8BMNXp-3AGDx-5SEFZ5-5mnxN-5EkcXF-3dD5a4-yDaPcx-47LGg-7GSbvY-78hxEF-JAH83-B1dr2">Matthew Rutledge</a> | CC BY-NC 2.0
 
+people:
+  - Jan Whittington
+  - Bill Howe
+  - Mark Hallenbeck
 ---
 
 The Transportation Data Collaborative (TDC) is an initiative at the UW to create a protected and linked data repository of sensitive information from regional public and private transportation providers. Data repositories are commonplace in health and medicine, and have proven to be successful in promoting research while protecting privacy. The TDC allows partnering agencies to create data-driven policy, support research uses, and provide individuals with authenticated access to their own transportation records. Such data requests can be met at a lower cost, with privacy protection, and with greater data security than if individual data requests were addressed on a case-by-case basis. The TDC provides solutions, including: 

@@ -5,6 +5,12 @@ permalink: /projects/:title/
 name: Fides&colon; Responsible Databases
 img_content: SQLShare.png
 img_alt: SQLShare screengrab
+
+people:
+  - Bill Howe
+  - Julia Stoyanovich
+  - H.V. Jagadish
+  - Gerome Miklau
 ---
 
 Historically scientists and policy makers have been greatly limited by the amount of data that was available to them. Increasingly, this is no longer the case. Today, with the exponential growth in data production the challenge no longer lies in acquisition handling.  Issues of managing, sharing, and analyzing sensitive and privacy-encumbered data cross-cut all research in an urban context.    In order to facilitate collaboration across borders and domains Urbanalytics is supporting the development of new techniques and technologies to enable safe and responsible data science projects that helps combat algorithmic bias, protect privacy, and afford safe data sharing, and remove obstacles to collaborative data-intensive research.   

@@ -6,6 +6,9 @@ name: Tactile MapTile
 img_content: tactilemaps.png
 img_alt: Tactile Maps in Use
 
+people:
+  - Anat Caspi
+  - Jess Hamilton
 ---
 
 This project works towards the development of a web application that would allow users to automatically generate and customize a 3D map model of any given area. The end product is a customized map tile, that users co-design by making personal choices about the location, scope, and selection of environmental features.  

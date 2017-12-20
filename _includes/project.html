@@ -34,6 +34,25 @@
 	#project aside a:hover{
 		background: #eee;
 	}
+	#project #people{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#project #people a {
+		display: block;
+		width: 150px;
+		overflow: hidden;
+	}
+	#project #people img{
+		display: block;
+		padding: 4px;
+	}
+	#project #people span{
+		padding: 4px;
+		color: #666;
+		display: block;
+		text-align: center; 
+	}
 	@media (max-width: 1200px){
 		#project aside{
 			width: 100%;
@@ -65,13 +84,24 @@
 		</figure>
 
 		{% if page.people %}
-			{% for person in page.people %}
-				<div></div>
+		<h1>Project Members</h1>
+		<div id="people">
+			{% for personName in page.people %}
+				{% for person in site.data.people %}
+					{% if person.name == personName %}
+						<a class="card" href="{{ person.link }}">
+							<img src="/images/people/{{ person.img }}">
+							<span>{{ person.name }}</span>
+						</a>
+						{% break %}
+					{% endif %}
+				{% endfor %}
 			{% endfor %}
+		</div>
 		{% endif %}
 
 		<aside>
-			<h1>Our Projects</h1>
+			<h1>Other Projects</h1>
 			<span>Equitable Transportation</span>
 			{% for post in site.categories.transportation %}
 				{% if post.link %}
