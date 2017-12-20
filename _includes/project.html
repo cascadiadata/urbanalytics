@@ -63,6 +63,13 @@
 			<img class="image fit" src="/images/projects/{{ page.img_content }}" alt="{{ page.img_alt }}" />
 			<figcaption>{{page.img_caption}}</figcaption>
 		</figure>
+
+		{% if page.people %}
+			{% for person in page.people %}
+				<div></div>
+			{% endfor %}
+		{% endif %}
+
 		<aside>
 			<h1>Our Projects</h1>
 			<span>Equitable Transportation</span>

@@ -47,7 +47,7 @@
 <section id="people" class="nav-anchor">
 	<h1>People</h1>
 	<div class="container">
-		{% for people in page.people %}
+		{% for people in site.data.people %}
 		<div class="card">
 			<a href="{{ people.link }}"><img src="images/people/{{ people.img }}" alt="{{ people.alt }}"></a>
 			<a href="{{ people.link }}"><span>{{ people.name }}</span></a>

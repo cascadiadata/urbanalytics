@@ -1,0 +1,108 @@
+- name: Bill Howe
+  aff: UW Information School
+  img: bill.png
+  link: https://ischool.uw.edu/people/faculty/billhowe
+  alt: Bill Howe
+  project: Director, Responsible Data Management
+- name: Thaisa Way
+  aff: UW College of Built Environments
+  img: thaisa.jpg
+  link: http://www.thaisaway.com/
+  alt: Thaisa Way
+  project: Director, Urban@UW
+- name: Nick Bolten
+  aff: AccessMap Seattle
+  img: nick.png
+  link: https://github.com/nbolten
+  alt: Nick Bolten
+  project: OpenSidewalks
+- name: Anat Caspi
+  aff: Taskar Center for Accessible Technology
+  img: anat.png
+  link: https://tcat.cs.washington.edu/people/caspi
+  alt: Anat Caspi
+  project: OpenSidewalks, Transportation
+- name: Charlie Catlett
+  aff: University of Chicago
+  img: charlie.png
+  link: https://www.ci.uchicago.edu/profile/165
+  alt: Charlie Catlett
+  project: Array of Things
+- name: Mark Hallenbeck
+  aff: Washington State Transportation Center
+  img: mark.png
+  link: http://escience.washington.edu/people/mark-hallenbeck/
+  alt: Mark Hallenbeck
+  project: Transportation Data Collaborative
+- name: Bryna Hazelton
+  aff: UW eScience Institute
+  img: bryna.png
+  link: http://escience.washington.edu/people/bryna-hazelton/
+  alt: Bryna Hazelton
+  project: Housing Stability
+- name: Michael Mattmiller
+  aff: City of Seattle
+  img: michael.png
+  link: https://www.linkedin.com/in/mikematt
+  alt: Michael Mattmiller
+  project: Array of Things
+- name: Raymond Ng
+  aff: University of British Columbia
+  img: raymond.png
+  link: https://www.cs.ubc.ca/~rng/
+  alt: Raymond Ng
+  project: Cascadia Urban Analytics Cooperative
+- name: Gail Murphy
+  aff: University of British Columbia
+  img: gail_murphy.jpg
+  link: https://www.cs.ubc.ca/people/gail-murphy
+  alt: Gail Murphy
+  project: Cascadia Urban Analytics Cooperative
+- name: Ariel Rokem
+  aff: UW eScience Institute
+  img: ariel.png
+  link: http://escience.washington.edu/people/ariel-rokem/
+  alt: Ariel Rokem
+  project: Housing Stability
+- name: Julia Stoyanovich
+  aff: Drexel University
+  img: julia.png
+  link: https://www.cs.drexel.edu/~julia/
+  alt: Julia Stonyanovich
+  project: Responsible Data Management
+- name: Jan Whittington
+  aff: UW Urban Design and Planning
+  img: jan.png
+  link: http://urbdp.be.washington.edu/people/jan-whittington/
+  alt: Jan Whittington
+  project: Transportation Data Collaborative
+- name: H.V. Jagadish
+  aff: Computer Science and Engineering, University of Michigan
+  img: jag.jpg
+  link: http://web.eecs.umich.edu/~jag/
+  alt: H.V. Jagadish
+  project: Responsible Data Management
+- name: Emily F. Keller
+  aff: UW Information School
+  img: emily.png
+  link: https://ischool.uw.edu/people/staff/efkeller
+  alt: Emily Keller
+  project: Urbanalytics, Cascadia Urban Analytics Cooperative
+- name: Gerome Miklau
+  aff: College of Information and Computer Sciences, University of Massachusetts, Amherst
+  img: gerome_miklau.jpg
+  link: https://people.cs.umass.edu/~miklau/ 
+  alt: Gerome Miklau
+  project: Responsible Data Management
+- name: Matthew Gee
+  aff: Impact Lab; Center for Data Science and Public Policy, University of Chicago
+  img: matthew.jpeg
+  link: http://dsapp.uchicago.edu/
+  alt: Matthew Gee
+  project: Responsible Data Management
+- name: Jess Hamilton
+  aff: University of Washington
+  img: jess.png
+  link: https://www.linkedin.com/in/jess-hamilton
+  alt: Jess Hamilton
+  project: OpenSidewalks

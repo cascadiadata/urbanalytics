@@ -14,7 +14,7 @@
 <section id="partners" class="nav-anchor">
 	<h1>Partners / Sponsors</h1>
 	<div class="container">
-		{% for partner in page.partners %}
+		{% for partner in site.data.partners %}
 		<a href="{{ partner.link }}">
 			<div class="card">
 				<img src="images/partners/{{ partner.img }}">
