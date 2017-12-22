@@ -2,7 +2,7 @@
 layout: project
 permalink: /projects/:title/
 
-name: Fides&colon; Responsible Databases
+name: Responsible Databases
 img_content: SQLShare.png
 img_alt: SQLShare screengrab
 
