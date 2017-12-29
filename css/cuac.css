@@ -1,0 +1,11 @@
+#cuac{
+	background-color: #f9ce06;
+	background-image: url(/images/cuac/overlay.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	padding: 10px 0;
+	margin-top: 40px;
+}
+#cuac h1{
+	color: #444;
+}

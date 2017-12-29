@@ -1,0 +1,75 @@
+#post main{
+	background: #fff;
+	max-width: 800px;
+	margin: 30px auto 0 auto;
+}
+#post main img{
+	width: 100%;
+	display: block;
+}
+#post main article{
+	padding: 16px 48px;
+}
+#post main article span{
+	display: block;
+	text-transform: uppercase;
+	color: #999;
+	font-size: 13px;
+	margin: 16px 0;
+}
+#post main article h1{
+	font-size: 36px;
+	color: #000;
+	line-height: 48px;
+	text-align: left;
+}
+#post main article *{
+	width: 100%;
+}
+#post footer{
+	text-align: left;
+	padding: 0 48px 50px 48px;
+}
+#post footer ul, #post footer li{
+	list-style-type: none;
+	padding: 0 !important;
+	font-size: 14px;
+}
+#post footer a{
+	color: #666;
+}
+.caption{
+	padding: 8px 48px 8px 48px;
+	color: #999;
+	font-size: 12px;
+	background: #fafafa
+}
+
+.tags span{
+	background: #eee;
+	display: inline-block !important;
+	border-radius: 3px;
+	margin: 3px 1px;
+	padding: 4px 8px;
+	transition: all 0.25s;
+	color: #666;
+	cursor: default;
+}
+
+@media(max-width: 1000px){
+	#post{
+		flex-wrap: wrap;
+	}
+	#post main{
+		margin-top: 2vw
+	}
+	#post main article{
+		padding: 8px 5vw;
+	}
+	.caption{
+		padding: 8px 5vw 8px 5vw;
+	}
+	#post footer{
+		padding: 8px 5vw;
+	}
+}

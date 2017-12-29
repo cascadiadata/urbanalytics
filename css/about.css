@@ -1,0 +1,9 @@
+#about .card{
+	background: #345;
+	color: #fff;
+	padding: 16px;
+}
+#about .card a{
+	color: #d2c2f2;
+	text-decoration: underline;
+}

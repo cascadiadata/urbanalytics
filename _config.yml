@@ -9,3 +9,14 @@ disqus_shortname: Urban
 markdown: kramdown
 permalink: pretty
 port: 4001
+
+# Compression settings
+sass:
+  sass_dir: ui/_scss
+  style: compressed
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+  startings: [head, body]

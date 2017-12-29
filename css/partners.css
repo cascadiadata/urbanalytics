@@ -1,0 +1,11 @@
+#partners .container{
+	display: flex;
+	flex-wrap: wrap;
+}
+#partners .card{
+	width: 40vw;
+	max-width: 216px;
+}
+#partners .card img{
+	width: 100%;
+}

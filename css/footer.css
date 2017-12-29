@@ -1,0 +1,27 @@
+#uw-logo{
+	background: #4b2e83;
+	height: 150px;
+	margin-top: 50px;
+}
+#uw-logo .container{
+	height: 100%;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#global-footer{
+	width: 100%;
+	background: #fff;
+	padding: 16px 0;
+}
+#global-footer #twitter-feed{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+#global-footer #copyright{
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	padding: 32px 0;
+}
