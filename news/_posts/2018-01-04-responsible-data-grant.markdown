@@ -10,7 +10,7 @@ tags:
 
 ---
 
-The [National Science Foundation](https://www.nsf.gov/) has awarded a $1.2 million BIGDATA [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1741047&HistoricalAwards=false) to Drexel University, in collaboration with the University of Washington, University of Michigan and University of Massachusetts Amherst to research and develop responsible data science methods targeting the early stages of the data life cycle.
+The [National Science Foundation](https://www.nsf.gov/) has awarded a $1.6 million BIGDATA [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1741047&HistoricalAwards=false) to Drexel University, in collaboration with the University of Washington, University of Michigan and University of Massachusetts Amherst to research and develop responsible data science methods targeting the early stages of the data life cycle.
 
 [Julia Stoyanovich](https://www.cs.drexel.edu/~julia/index.html), Assistant Professor of Computer Science at Drexel University, is the Principal Investigator (PI) for the grant, which provides funding from September 2017 through August 2021. Stoyanovich will work with Co-PIs [Bill Howe](https://faculty.washington.edu/billhowe/), Director of [Urbanalytics](http://urbanalytics.uw.edu/) and Associate Professor in the [Information School](https://ischool.uw.edu/) at UW, [H. V. Jagadish](http://web.eecs.umich.edu/~jag/), the Bernard A. Galler Collegiate Professor of Electrical Engineering and Computer Science at UM, and [Gerome Miklau](https://people.cs.umass.edu/~miklau/), Professor in the College of Information and Computer Sciences at UMA.
 
