@@ -15,14 +15,14 @@
 - img: trac.png
   link: http://depts.washington.edu/trac/
 - img: opensidewalks.png
-  link: https://opensidewalks.com/
+  link: https://www.opensidewalks.com/
 - img: macarhtur.png
   link: https://www.macfound.org/
-- img: allen_school.png
-  link: 
-- img: drexel_university.png
-  link: 
-- img: UMassAmherst.png
-  link: 
 - img: gates_foundation.png
-  link: 
+  link: https://www.gatesfoundation.org/
+- img: drexel_university.png
+  link: http://drexel.edu/
+- img: UMassAmherst.png
+  link: https://www.umass.edu/
+- img: allen_school.png
+  link: https://www.cs.washington.edu/
