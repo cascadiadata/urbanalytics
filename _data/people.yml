@@ -40,12 +40,6 @@
   link: http://escience.washington.edu/people/bryna-hazelton/
   alt: Bryna Hazelton
   project: Housing Stability
-- name: Michael Mattmiller
-  aff: City of Seattle
-  img: michael.png
-  link: https://www.linkedin.com/in/mikematt
-  alt: Michael Mattmiller
-  project: Array of Things
 - name: Raymond Ng
   aff: University of British Columbia
   img: raymond.png
@@ -65,7 +59,7 @@
   alt: Ariel Rokem
   project: Housing Stability
 - name: Julia Stoyanovich
-  aff: Drexel University
+  aff: New York University
   img: julia.png
   link: https://www.cs.drexel.edu/~julia/
   alt: Julia Stonyanovich
@@ -100,9 +94,9 @@
   link: http://dsapp.uchicago.edu/
   alt: Matthew Gee
   project: Responsible Data Management
-- name: Jess Hamilton
+- name: Jose Hernandez
   aff: University of Washington
-  img: jess.png
-  link: https://www.linkedin.com/in/jess-hamilton
-  alt: Jess Hamilton
-  project: OpenSidewalks
+  img: jose_hernandez.jpg
+  link: https://escience.washington.edu/people/jose-hernandez/
+  alt: Jose Hernandez
+  project: Housing Stability

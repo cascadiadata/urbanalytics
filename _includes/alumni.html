@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="/css/people_alumni.css">
+<section id="alumni" class="nav-anchor">
+	<h1>Alumni</h1>
+	<div class="container">
+		{% for alumni in site.data.alumni %}
+		<div class="card">
+			<a href="{{ alumni.link }}"><img src="images/alumni/{{ alumni.img }}" alt="{{ alumni.alt }}"></a>
+			<a href="{{ alumni.link }}"><span>{{ alumni.name }}</span></a>
+			<p>{{ alumni.aff }}</p>
+			<p>{{ alumni.project }}</p>
+		</div>
+		{% endfor %}
+	</div>
+</section>

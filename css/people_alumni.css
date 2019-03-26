@@ -1,41 +1,51 @@
-#people .container{
+#people .container,
+#alumni .container{
 	display: flex;
 	flex-wrap: wrap;
 }
-#people .card{
+#people .card,
+#alumni .card{
 	width: 20%;
 	max-width: 250px;
 	min-width: 150px;
 	overflow: hidden;
 	transition: background 0.5s;
 }
-#people .card img{
+#people .card img,
+#alumni .card img{
 	width: 100%;
 }
-#people .card span{
+#people .card span,
+#alumni .card span{
 	font-size: 20px;
 	display: block;
 	padding: 16px 16px 0 16px;
 }
-#people .card p{
+#people .card p,
+#alumni .card p{
 	padding: 0 16px;
 	font-size: 14px;
 	color: #666;
 }
-#people .card *{
+#people .card *,
+#alumni .card *{
 	transition: all 0.5s;
 }
-#people .card:hover{
+#people .card:hover,
+#alumni .card:hover{
 	background: #4b2e83;
 }
-#people .card:hover *{
+#people .card:hover *,
+#alumni .card:hover *{
 	color: #fff;
 }
-#people .card:hover img{
+#people .card:hover img,
+#alumni .card:hover img{
 	transform: scale(0.95, 0.95);
 }
 @media(max-width: 800px){
-	#people .card{
+	#people .card,
+	#alumni .card{
 		width: calc(50% - 8px);
 		margin: 4px;
 		max-width: none;

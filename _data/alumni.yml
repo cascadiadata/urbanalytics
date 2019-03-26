@@ -1,0 +1,12 @@
+- name: Michael Mattmiller
+  aff: Microsoft
+  img: michael.png
+  link: https://www.linkedin.com/in/mikematt
+  alt: Michael Mattmiller
+  project: Array of Things
+- name: Jess Hamilton
+  aff: University of Washington
+  img: jess.png
+  link: https://www.linkedin.com/in/jess-hamilton
+  alt: Jess Hamilton
+  project: OpenSidewalks
