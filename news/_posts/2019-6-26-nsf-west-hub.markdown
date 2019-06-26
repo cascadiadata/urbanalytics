@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  NSF Awards $4 Million to West Big Data Innovation Hub, Supporting Urbanalytics Projects 
+title:  NSF Awards $4 Million to West Big Data Innovation Hub
 date:   2019-06-26 1:57:12
 excerpt:
   
