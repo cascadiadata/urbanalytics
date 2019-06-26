@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  NSF Awards $4 Million to West Big Data Innovation Hub
+title:  NSF Awards $4 Million to West Big Data Innovation Hub, Doubling Prior Funds
 date:   2019-06-26 1:57:12
 excerpt:
   
-  The National Science Foundation has issued a second round of funding for the regional Big Data Innovation Hubs, doubling prior funds, to support cross-sector partnerships that enhance the application of data science to societal and scientific challenges. 
+  The National Science Foundation has issued a second round of funding for the regional Big Data Innovation Hubs to support cross-sector partnerships that enhance the application of data science to societal and scientific challenges. 
 author: Emily F. Keller
 tags:
   - Responsible Data
