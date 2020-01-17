@@ -24,5 +24,6 @@ The Transportation Data Collaborative (TDC) is an initiative at the UW to create
 ### Additional Information:
 
 * **[UW Transportation Data Collaborative](https://www.uwtdc.org/)**
+* **["Seattle bike share programs show infrequent helmet use, little disparity in access to bikes among neighborhoods" by Jackson Holtz, _UW News_, January 14, 2019](https://www.washington.edu/news/2019/01/14/seattle-bike-share-programs-show-infrequent-helmet-use-little-disparity-in-access-to-bikes-among-neighborhoods/)**
 
 _The UW Transportation Data Collaborative is led by [Jan Whittington](http://urbdp.be.washington.edu/people/jan-whittington/), UW Dept. of Urban Design and Planning, Mark Hallenbeck, [Washington State Transportation Center](http://depts.washington.edu/trac/) and [Bill Howe](https://ischool.uw.edu/people/faculty/billhowe), UW Information School_
