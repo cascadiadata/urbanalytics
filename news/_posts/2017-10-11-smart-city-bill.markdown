@@ -7,8 +7,7 @@ excerpt:
 author: Emily F. Keller
 tags:
   - Policy
-  - Internet of Things
-  - Smart Cities
+  - Urban data
 
 ---
 

@@ -7,7 +7,8 @@ excerpt:
   Uyi Stewart, Director of Global Development Strategy, Data and Analytics at the Bill and Melinda Gates Foundation, presented a talk on data science and social impact.
 author: Emily F. Keller
 caption: Photo by Robin Brooks
-tags: 
+tags:
+  - Social impact
 ---
 
 Uyi Stewart, Director of Global Development Strategy, Data and Analytics at the Bill and Melinda Gates Foundation, presented a talk on data science and social impact hosted by the University of Washington's [eScience Institute](http://escience.washington.edu/) on May 23rd.

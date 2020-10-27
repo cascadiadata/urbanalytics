@@ -7,7 +7,7 @@ excerpt:
   The NSF has awarded $2 million to three universities to study systems that enable research on sensitive data while preventing misuse and misinterpretation.
 author: Emily F. Keller
 tags:
-  - Responsible Data
+  - Responsible data management
   
 ---
 

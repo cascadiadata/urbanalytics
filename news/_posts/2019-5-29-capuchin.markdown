@@ -7,7 +7,7 @@ excerpt:
   Urbanalytics Director Bill Howe and researchers Luke Rodriguez, Babak Salimi and Dan Suciu won the best paper award at SIGMOD for Capuchin - Causal Database Repair for Algorithmic Fairness
 author: Emily F. Keller
 tags:
-  - Responsible data
+  - Responsible data management
   
 ---
 

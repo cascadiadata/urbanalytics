@@ -6,9 +6,7 @@ excerpt:
   The National Science Foundation has awarded a $1.2 million BIGDATA grant to Drexel University, in collaboration with the University of Washington, University of Michigan and University of Massachusetts Amherst to research and develop responsible data science methods targeting the early stages of the data life cycle.
 author: Emily F. Keller
 tags:
-  - Responsible Data
-  - Grants
-
+  - Responsible data management
 ---
 
 The [National Science Foundation](https://www.nsf.gov/) has awarded a $1.6 million BIGDATA [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1741047&HistoricalAwards=false) to Drexel University, in collaboration with the University of Washington, University of Michigan and University of Massachusetts Amherst to research and develop responsible data science methods targeting the early stages of the data life cycle.

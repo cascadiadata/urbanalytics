@@ -7,6 +7,7 @@ excerpt:
    Urban@UW released an annual letter detailing activities on homelessness, gentrification, sustainability and more
 author: Emily F. Keller
 tags:
+  - Urban data
   
 ---
 [Urban@UW](https://depts.washington.edu/urbanuw/), a large network of scholars and practitioners that supports research and practice for sustainable and just urban systems across all three University of Washington campuses, has released its [Fall 2020 Annual Letter](https://depts.washington.edu/urbanuw/about/annual-letter/) detailing recent activities.

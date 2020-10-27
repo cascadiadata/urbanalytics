@@ -7,7 +7,7 @@ excerpt:
    Lead investigators from three universities held the first workshop on Frameworks for Integrative Data Systems (FIDES) and Foundations of Responsible Data Science (FORDS)
 author: Emily F. Keller
 tags:
-  - Responsible Data
+  - Responsible data management
   
 ---
 

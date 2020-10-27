@@ -6,7 +6,8 @@ image:
 excerpt:
   The article "Refining the Concept of a Nutritional Label for Data and Models" describes a tool providing visual widgets for uploaded data sets.
 author: Emily F. Keller
-tags: Responsible Data Management
+tags:
+  - Responsible data management
 ---
 
 Freedom to Tinker published the article "[Refining the Concept of a Nutritional Label for Data and Models](https://freedom-to-tinker.com/2018/05/03/refining-the-concept-of-a-nutritional-label-for-data-and-models/)" by Julia Stoyanovich, Assistant Professor of Computer Science at Drexel University, and Bill Howe, Associate Professor in the Information School at the University of Washington and Director of Urbanalytics. The authors discussed their work to create the web-based [Ranking Facts](http://demo.dataresponsibly.com/rankingfacts) tool, which is modeled after nutritional labels to increase transparency around ranked outputs as computational models "consume" datasets.

@@ -6,7 +6,8 @@ image:
 excerpt:
   The UW eScience Institute, in collaboration with the Cascadia Urban Analytics Cooperative, is excited to announce the fourth offering of the Data Science for Social Good summer program.
 author: Emily F. Keller
-tags: Data Science for Social Good
+tags:
+  - Social impact
 ---
 
 The University of Washington [eScience Institute](http://escience.washington.edu/), in collaboration with the [Cascadia Urban Analytics Cooperative](http://cascadiadata.org/), is excited to announce the fourth offering of the [Data Science for Social Good](http://escience.washington.edu/dssg/) summer program taking place from June 11 - August 17, 2018.

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  EZLearn Paper Presented at AI Conference in Sweden
+date:   2018-7-26 1:57:12
+excerpt:
+  
+   Urbanalytics Director Bill Howe presented a paper discussing an auxiliary natural language processing system developed with co-authors Maxim Grechkin and Hoifung Poon
+author: Emily F. Keller
+tags:
+  - Responsible data management
+  
+---
+Bill Howe, Director of Urbanalytics and Associate Professor in the University of Washington Information School, presented a paper written with former PhD student Maxim Grechkin (now at Facebook) and Hoifung Poon of Microsoft Research at a recent conference.
+
+The paper, “[EZLearn: Exploiting Organic Supervision in Automated Data Annotation](https://www.ijcai.org/Proceedings/2018/0568.pdf),” discusses an auxiliary natural language processing system developed by the authors that accurately annotates data samples in functional genomics and scientific figure comprehension without using manually labeled data. The system addresses common barriers to automatic data annotation and supports open science and facilitate data reuse, reproducibility and scientific collaboration.
+
+The paper was presented on July 18, 2018 at the [International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence](https://www.ijcai-18.org/) in Stockholm, Sweden.

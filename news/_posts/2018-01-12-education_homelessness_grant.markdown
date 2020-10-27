@@ -6,9 +6,8 @@ excerpt:
   The National Science Foundation has awarded a $1.2 million BIGDATA grant to Drexel University, in collaboration with the University of Washington, University of Michigan and University of Massachusetts Amherst to research and develop responsible data science methods targeting the early stages of the data life cycle.
 author: Emily F. Keller
 tags:
-  - Housing Stability
+  - Housing
   - Education
-  - Grants
 
 ---
 

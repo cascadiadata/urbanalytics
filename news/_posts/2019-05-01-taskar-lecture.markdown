@@ -6,6 +6,7 @@ excerpt:
   Professor Michael Kearns will present "The Ethical Algorithm" as the featured speaker of this year's Ben Taskar Memorial Distinguished Lecture.
 author: Emily F. Keller
 tags: 
+  - Responsible data management
 ---
 
 On Thursday, May 2, Professor Michael Kearns will present "The Ethical Algorithm" as the featured speaker of this year's Ben Taskar Memorial Distinguished Lecture. 

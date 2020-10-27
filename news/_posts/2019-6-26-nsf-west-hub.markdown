@@ -7,8 +7,8 @@ excerpt:
   The National Science Foundation has issued a second round of funding for the regional Big Data Innovation Hubs to support cross-sector partnerships that enhance the application of data science to societal and scientific challenges. 
 author: Emily F. Keller
 tags:
-  - Responsible Data
-  - Neighborhood Change
+  - Responsible data management
+  - Neighborhood change
   
 ---
 
