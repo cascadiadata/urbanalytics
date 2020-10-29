@@ -4,8 +4,9 @@
 	margin: 30px auto 0 auto;
 }
 #post main img{
-	width: 100%;
+	width: 50%;
 	display: block;
+	margin: 30px auto 0 auto;
 }
 #post main article{
 	padding: 16px 48px;
